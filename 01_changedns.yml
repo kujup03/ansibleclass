@@ -5,7 +5,7 @@
   - name: Change DNS for member servers
     ansible.windows.win_dns_client:
       adapter_names: "*"
-      dns_servers: 10.1.0.7
+      dns_servers: 10.1.0.8
 
   - name: Reboot member servers
     win_reboot:
